@@ -14,6 +14,6 @@ public class UserDTo {
         private Long id;
         private String username;
         private String useremail;
-        private String userpassword;
+//        private String userpassword;
 
 }

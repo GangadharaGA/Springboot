@@ -29,12 +29,14 @@ public class userservice implements operations{
 
     @Override
     public UserDTo createuser(UserDTo user) {
-        Admin n1= mapper.maptoUser(user);
+        Admin n1= mapper.maptoAdmin(user);
         return mapper.maptoUserDTo(repo.save(n1));
     }
 
     public List<UserDTo> getall() {
-       List<Admin> n1=repo.findAll();
+
+        LOG.info("Task execution started.");
+        List<Admin> n1=repo.findAll();
         return n1.stream().map(mapper::maptoUserDTo).collect(Collectors.toList());
     }
 

@@ -6,17 +6,17 @@ public class mapper {
         return  new UserDTo(
                 admin.getId(),
                 admin.getUsername(),
-                admin.getUsermail(),
-                admin.getUserpassword()
+                admin.getUsermail()
+
         );
     }
 
-    public static Admin maptoUser(UserDTo user){
+    public static Admin maptoAdmin(UserDTo user){
         return new Admin(
                 user.getId(),
                 user.getUsername(),
                 user.getUseremail(),
-                user.getUserpassword()
+                ""
         );
     }
 }

@@ -6,6 +6,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+
 @Entity
 @Table
 @NoArgsConstructor
@@ -19,4 +20,11 @@ public class Admin {
     private String username;
     private String usermail;
     private String userpassword;
+
+
+
+
+//    public Admin(Long id, String username, String useremail) {
+//
+//    }
 }
