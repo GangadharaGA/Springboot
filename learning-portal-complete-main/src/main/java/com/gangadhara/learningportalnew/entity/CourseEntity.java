@@ -28,7 +28,7 @@ import lombok.NoArgsConstructor;
 public class CourseEntity {
 
 	public enum Category {
-		OOPS, SQL, JAVA, SPA, CPP
+		 SQL, JAVA, SPA, CPP,C++,React, Spring 
 	}
 
 	@Id
