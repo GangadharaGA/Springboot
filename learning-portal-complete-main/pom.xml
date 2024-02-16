@@ -8,7 +8,7 @@
 		<version>3.3.0-M1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.harshit</groupId>
+	<groupId>com.gangadhara</groupId>
 	<artifactId>learning-portal-new</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>learning-portal-new</name>
@@ -30,11 +30,17 @@
 		    <artifactId>mapstruct</artifactId>
 		    <version>1.5.5.Final</version>
 		</dependency>
-		<dependency>
+<!-- 		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
 			<scope>runtime</scope>
-		</dependency>
+		</dependency> -->
+		<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>8.0.27</version> <!-- Or the latest version available -->
+</dependency>
+
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
